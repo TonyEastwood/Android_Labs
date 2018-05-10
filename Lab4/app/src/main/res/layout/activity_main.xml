@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Video"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <VideoView
+            android:id="@+id/videoPlayer"
+            android:layout_width="match_parent"
+            android:layout_height="174dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Music"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lil Peep - But I'm sad"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="311dp"
+            android:layout_height="59dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/start1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="StartMedia1"
+                android:text="Start" />
+
+            <Button
+                android:id="@+id/pause1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="PauseMedia1"
+                android:text="Pause" />
+
+            <Button
+                android:id="@+id/stop1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="StopMedia1"
+                android:text="Stop" />
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COLDHART - parking lot prod by 90s bambino"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/start2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="StartMedia2"
+                android:text="Start" />
+
+            <Button
+                android:id="@+id/pause2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="PauseMedia2"
+                android:text="Pause" />
+
+            <Button
+                android:id="@+id/stop2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="StopMedia2"
+                android:text="Stop" />
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ssshhhiiittt! - корабль"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/start3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="StartMedia3"
+                android:text="Start" />
+
+            <Button
+                android:id="@+id/pause3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="PauseMedia3"
+                android:text="Pause" />
+
+            <Button
+                android:id="@+id/stop3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="StopMedia3"
+                android:text="Stop" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
